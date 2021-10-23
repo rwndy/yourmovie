@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// 1 rem = 10px 10px / 16px = 62.5%
+// 1 em = 16px
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  border-style: none;
+}
+
+body {
+  height: 100%;
+  background-color: $bg-secondary;
+  color: $color-primary;
+  font-family: "Roboto", sans-serif ;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+button:focus {
+  outline: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
